@@ -1,0 +1,91 @@
+[
+    {   
+        "category": "Crust",
+        "multipleAllowed": 0,
+        "options": [
+            {
+                   "name": "Original Crust",
+                    "surcharge": "0.75",
+                    "price": "2.1"
+                
+            },
+            {
+                    "name": "Gluten Free Crust",
+                    "surcharge": "3",
+                    "price": "4"
+                
+            }
+        ]
+    }, {
+        "category": "Sauce",
+        "multipleAllowed": 0,
+        "options": [
+            {
+                    "name": "BBQ",
+                    "surcharge": "1000000",
+                    "price": "2.25"
+                
+            },
+            {
+                  "name": "Curry Tomato Sauce",
+                    "surcharge": "3",
+                    "price": "1.5"
+                
+            },
+            {
+                "name": "Olive Oil",
+                    "surcharge": "3",
+                    "price": "1"
+                
+            }
+        ]
+    }, {
+        "category": "Proteins",
+        "multipleAllowed": 1,
+        "options": [
+            {
+                    "name": "Sausage",
+                    "surcharge": "1000000",
+                    "price": "2.25"
+                
+            },
+            {
+                  "name": "Chicken",
+                    "surcharge": "3",
+                    "price": "1.5"
+                
+            },
+            {
+                "name": "Salami",
+                    "surcharge": "3",
+                    "price": "1"
+                
+            }
+        ]
+    }
+    , {
+        "category": "Cheese",
+        "multipleAllowed": 1,
+        "options": [
+            {
+                    "name": "Gauda",
+                    "surcharge": "1.00",
+                    "price": "2.25"
+                
+            },
+            {
+                  "name": "Mozarela",
+                    "surcharge": "3",
+                    "price": "1.5"
+                
+            },
+            {
+                "name": "Feta",
+                    "surcharge": "3",
+                    "price": "1"
+                
+            }
+        ]
+    }
+
+]

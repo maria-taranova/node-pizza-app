@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<% include partials/head.ejs %>
+</head>
+<body class="container">
+<header>
+<% include partials/header %>
+</header>
+<div class="container">
+<h1><%= title %></h1>
+
+
+<br/>
+<div class="row">
+<div class="col-md-6">
+<form method="post" id="submitForm">
+<div class="form-group">
+<label>Size</label>
+<select name="size" id="size" onchange="setPrices()" >
+<option value="0">Medium</option>
+<option value="1">Large</option>
+</select>
+<label for="qty">Qty</label>
+<select name="qty" id="qty" >
+<option value="1">1</option>
+<option value="2">2</option>
+<option value="3">3</option>
+<option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+</select>
+ <div class="row" id="menu"></div>
+</div>
+</div>
+<div class="col-md-6">
+
+<div class="form-group">
+<label for="orderNo">Name (required, at least 2 characters)</label>
+<input type="text" required class="form-control" name="name" minlength="2" id="name" placeholder="Enter your name" autocomplete="name" required>
+</div>
+<div class="form-group">
+<label for="title">Telephone Number</label>
+<input class="form-control" required id="tel" name="tel" placeholder="Telephone number" autocomplete='tel' pattern=".{10,}" title="9 digit number is required">
+</div>
+<div class="form-group">
+<label for="description">Address</label>
+
+<input class="form-control" rows="2" id="address" name="address" autocomplete="address" required></input>
+</div>
+<button type="submit" class="btn btn-success">Submit</button>
+<div class="form-group margin-bottom-10">
+</div>
+<div id="statusMsg">
+</div>
+</form>
+</div>
+</div>
+</div>
+<% include partials/footer %>
+<script src="javascripts/dist/index.js"></script>
+</html>
